@@ -1,0 +1,280 @@
+/* 
+Seccion Index
+Tipografia y letras
+Color principal: rgb(100, 205, 237);*/
+
+
+@import url(https://fonts.google.com/share?selection.family=Raleway|Roboto);
+
+html{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+h1{
+    font-size: 4rem;
+}
+h2{
+    font-size: 3rem;
+}
+h3{
+    font-size: 2rem;
+}
+p{
+    font-size: 1.5rem;
+    color: black;
+    margin: 10%;
+}
+
+
+
+/* Menu de navegación */
+
+.navbar{
+    background-color: rgb(100, 205, 237);
+}
+
+
+/* Banner index*/
+
+.banner{
+    text-align: center;
+    background-image: url(../medios/IMG_4387.PNG);
+
+	min-height: 300px;
+	max-height: 500px;
+	overflow: hidden;
+
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    text-shadow: 1px -1px 25px rgb(0, 0, 0);
+    color: #FFFFFF;
+}
+
+.btn{
+    margin-bottom: 50%;
+}
+
+
+.tituloBanner{
+    font-size: 4rem;
+    color: rgb(37, 37, 37);
+    margin-top: 15px;
+    
+}
+
+/* Carrusel */
+
+.carousel-inner img {
+    width: 100%;
+    max-height: 720px;
+}
+
+.carousel-inner{
+ height: 700px;
+}
+
+/* Footer */
+
+footer{
+    background-color: rgb(100, 205, 237);
+    color:rgb(100, 205, 237);
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    font-size: 1,5rem;
+}
+footer img, svg{
+    width: 50px;
+}
+
+footer div{
+   width: 30%;
+   text-align: center;
+}
+
+
+/* 
+Seccion Servicios
+Banner */
+
+.bannerServicios{
+    display: flexbox;
+    justify-content: center;
+    text-align: center;
+    background-image: url(../medios/Vista\ superior\ del\ apretón\ de\ manos\ sobre\ el\ escritorio\ con\ teclado\ y\ gráficos\ _\ Foto\ Premium.jpg);
+
+	min-height: 300px;
+	max-height: 500px;
+	overflow: hidden;
+
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    text-shadow: 1px -1px 25px rgb(0, 0, 0);
+    color: #FFFFFF;
+}
+
+/* Carrusel Servicios */
+
+.carousel-inner img {
+    width: 100%;
+    max-height: 700px;
+}
+
+.carousel-inner{
+ height: 700px;
+}
+
+p{
+    font-size: 1rem;
+}
+
+  /* Estilo para la sección de Proceso de Trabajo */
+  h2 {
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 30px;
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  h4 {
+    color: #333;
+    font-weight: bold;
+  }
+  
+  /* Colores de fondo y texto */
+
+  .container {
+    background-color: #17a2b8;
+    color: #fff;
+  }
+
+
+/* 
+Seccion Nosotros
+Estilo para la sección de Estadísticas y Datos Relevantes */
+.container .col-lg-6 {
+    text-align: center;
+  }
+
+  /* 
+  Seccion Clientes
+  Estilo para la sección de Testimonios de Clientes */
+
+  .card {
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .card-text {
+    font-size: 18px;
+  }
+  
+  .card-title {
+    font-weight: bold;
+    margin-top: 10px;
+  }
+
+
+
+  /* 
+  Seccion de Contacto
+  Estilos generales de la sección de contacto */
+.contact-section {
+    padding: 60px 0;
+  }
+  
+  .contact-info {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  /* Estilos para el formulario de contacto */
+  #contact-form {
+    margin-top: 20px;
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+  }
+  
+  .form-control {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  textarea {
+    resize: none;
+  }
+  
+  .btn-primary {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+  }
+  
+  .btn-primary:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Estilos para la información de contacto */
+  .contact-info p {
+    margin-bottom: 10px;
+  }
+  
+h2{
+    color: #333;
+}
+
+h3{
+    color: #333;
+}
+
+  .contact-info i {
+    margin-right: 10px;
+  }
+
+
+
+
+  /* 
+  Seccion Footer
+  Estilos para el footer y su contenido */
+.footer {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    justify-content: space-evenly; /* Distribuye los elementos horizontalmente */
+    align-items: center; /* Centra verticalmente los elementos en el contenedor */
+}
+
+.social-icons {
+    list-style: none;
+    padding: 0;
+    display: flex; /* Alinea los elementos horizontalmente */
+}
+
+.social-icons li {
+    margin-right: 10px;
+}
+
+.name {
+    font-weight: bold;
+    color: #333;
+}
+
+  
